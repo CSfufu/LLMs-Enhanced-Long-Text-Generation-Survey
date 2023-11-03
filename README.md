@@ -38,7 +38,7 @@ This comprehensive survey provides a detailed analysis of these tasks, highlight
 
 ### 1. Resource
 
-- [**Long Text Generation Challenge Survey**](Long Text Generation Challenge.pdf)
+- [**Long Text Generation Challenge Survey**](./Long Text Generation Challenge.pdf)
 -  **A Survey of Controllable Text Generation using Transformer-based Pre-trained Language Models**
 -  
 - 

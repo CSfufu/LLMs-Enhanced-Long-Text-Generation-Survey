@@ -2,7 +2,7 @@
 
 > Contributed by  [Sky Chen](https://notion-next-six-rouge.vercel.app/)
 
-### Introduction
+## Introduction
 
 In recent years, Long Text Generation has emerged as a pivotal area in natural language processing, offering solutions to a diverse range of tasks that involve generating lengthy textual content. This field has witnessed substantial growth and innovation, leading to the development of various specialized tasks within the realm of Long Text Generation. This survey delves deep into the multifaceted landscape of Long Text Generation tasks, categorizing them into several distinct domains.
 
@@ -24,23 +24,23 @@ Beyond these core domains, the survey also explores additional tasks within Long
 
 This comprehensive survey provides a detailed analysis of these tasks, highlighting their unique complexities, methodologies, and applications. By understanding the nuances of Long Text Generation across various domains, researchers and practitioners can make informed decisions, driving advancements in natural language processing and shaping the future of intelligent text generation systems.
 
-### Contents
+## Contents
 
-1. [Resource](#1. Resource)
+1. Resource
 
-2. [Task](#2. Task)
-   - [2.1 Long Dialogue Summarization](#2.1 Long Dialogue Summarization)
-   - [2.2 Long Document Summarization](#2.2 Long Document Summarization)
-   - [2.3 Long Documents Question Answering](#2.3 Long Documents Question Answering)
-   - [2.4 Storytelling generation](#2.4 Storytelling generation)
-   - [2.5 Long context translation](#2.5 Long context translation)
-3. [Others](#3. Others)
+2. Task
+   - 2.1 Long Dialogue Summarization
+   - 2.2 Long Document Summarization
+   - 2.3 Long Documents Question Answering
+   - 2.4 Storytelling generation
+   - 2.5 Long context translation
+3. Others
 
 ### 1. Resource
 
-- [**Long Text Generation Challenge Survey**](/Users/csgo/Desktop/科研训练/LTG长文本生成/Long Text Generation Challenge.pdf)
--  [A Survey of Controllable Text Generation using Transformer-based Pre-trained Language Models.pdf](A Survey of Controllable Text Generation using Transformer-based Pre-trained Language Models.pdf) 
--  [2310.09135 (1).pdf](2310.09135 (1).pdf) 
+- [**Long Text Generation Challenge Survey**](Long Text Generation Challenge.pdf)
+-  **A Survey of Controllable Text Generation using Transformer-based Pre-trained Language Models**
+-  
 - 
 
 ### 2. Task

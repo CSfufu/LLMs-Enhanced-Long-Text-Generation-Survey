@@ -1,58 +1,43 @@
-# Must-Read Papers for Long Text Generation Challenge（LTG）
+# LLMs-Enhanced-Long-Text-Generation-Survey
 
-> Contributed by  [Sky Chen](https://notion-next-six-rouge.vercel.app/)
+Long Form NLG Generation  Based on Large Language Models
 
-## Introduction
+> Contributed by: [Sky Chen](https://notion-next-six-rouge.vercel.app/)
 
-In recent years, Long Text Generation has emerged as a pivotal area in natural language processing, offering solutions to a diverse range of tasks that involve generating lengthy textual content. This field has witnessed substantial growth and innovation, leading to the development of various specialized tasks within the realm of Long Text Generation. This survey delves deep into the multifaceted landscape of Long Text Generation tasks, categorizing them into several distinct domains.
+# **Resource**
 
-**Long Dialogue Summarization:**
+  ## A. Task Perspective
 
-One significant facet explored in this survey is Long Dialogue Summarization, focusing on the synthesis of concise summaries from extended conversational exchanges. This task addresses the challenge of distilling meaningful insights and key points from extended dialogues, enhancing the efficiency of information extraction from lengthy conversational data.
+  ### _A.1 Long Form Open Domain Dialogue_
 
-**Long Document Summarization:**
+    1. MemoChat: Tuning LLMs to Use Memos for Consistent Long-Range Open-Domain Conversation. _Junru Lu, Siyu An, Mingbao Lin, Gabriele Pergola, Yulan He, Di Yin, Xing Sun, Yunsheng Wu._ [\[pdf\]](https://arxiv.org/pdf/2308.08239.pdf). `Arxiv Aug 16, 2023`.
 
-Another key area of investigation is Long Document Summarization, wherein the objective is to generate condensed and coherent summaries from extensive textual documents. This task plays a crucial role in aiding readers and researchers to grasp the essential content of lengthy documents swiftly and effectively.
+  ### _A.2 Long Dialogue Summarization_
 
-**Long Documents Question Answering:**
 
-Long Documents Question Answering represents a fundamental Long Text Generation task, involving the generation of detailed and contextually relevant answers to questions posed about lengthy documents. This task requires a deep understanding of both the document's content and the nuances of the questions asked, facilitating accurate and comprehensive responses.
 
-**Other Tasks:**
+  ### _A.3 Long Document Summarization_
 
-Beyond these core domains, the survey also explores additional tasks within Long Text Generation. Notable examples include Storytelling Generation, which delves into the art of generating captivating narratives and fictional content, and Long Context Translation, which addresses the challenges of translating lengthy textual content while preserving context and coherence.
 
-This comprehensive survey provides a detailed analysis of these tasks, highlighting their unique complexities, methodologies, and applications. By understanding the nuances of Long Text Generation across various domains, researchers and practitioners can make informed decisions, driving advancements in natural language processing and shaping the future of intelligent text generation systems.
 
-## Contents
+## B. Constraints Perspective
 
-1. Resource
+1. Fixed global memory for controllable long text generation. _Zheng Chen, Zhejun Liu._ [\[pdf\]](https://dl.acm.org/doi/abs/10.1007/s10489-022-04197-6). `Applied Intelligence, 2022`.
 
-2. Task
-   - 2.1 Long Dialogue Summarization
-   - 2.2 Long Document Summarization
-   - 2.3 Long Documents Question Answering
-   - 2.4 Storytelling generation
-   - 2.5 Long context translation
-3. Others
+## C. Technique Perspective
 
-### 1. Resource
+### C.1 Data Augmentation
 
-- [**Long Text Generation Challenge Survey**](./Long Text Generation Challenge.pdf)
--  **A Survey of Controllable Text Generation using Transformer-based Pre-trained Language Models**
--  
-- 
+1. Data augmentation in natural language processing: a novel text generation approach for long and short text classifers.Markus Bayer1  · Marc‑André Kaufhold1 · Björn Buchhold2 · Marcel Keller3 · Jörg Dallmeyer2 · Christian Reuter1 [[pdf]](https://link.springer.com/content/pdf/10.1007/s13042-022-01553-3.pdf?pdf=button) `International Journal of Machine Learning and Cybernetics (2023)`
 
-### 2. Task
+### C.2 Detector
 
-#### 2.1 Long Dialogue Summarization
+1.A Survey on LLM-generated Text Detection: Necessity, Methods, and Future Directions.Junchao Wu, Shu Yang, Runzhe Zhan, Yulin Yuan, Derek F. Wong Senior Member, IEEE and Lidia S. Chao Member, IEEE. [[pdf]](https://arxiv.org/pdf/2310.14724.pdf) `Arxiv Oct 24, 2023`
 
-#### 2.2 Long Document Summarization
+### C.3 LongForm
 
-#### 2.3 Long Documents Question Answering
+1.LongForm: Optimizing Instruction Tuning for Long Text Generation with Corpus Extraction.[Abdullatif Köksal](https://arxiv.org/search/cs?searchtype=author&query=Köksal,+A), [Timo Schick](https://arxiv.org/search/cs?searchtype=author&query=Schick,+T), [Anna Korhonen](https://arxiv.org/search/cs?searchtype=author&query=Korhonen,+A), [Hinrich Schütze](https://arxiv.org/search/cs?searchtype=author&query=Schütze,+H) [[pdf]](https://arxiv.org/abs/2304.08460) `arxiv *17 Apr 2023*`
 
-#### 2.4 Storytelling generation
+### C.4 Language Models
 
-#### 2.5 Long context translation
-
-### 3. Others
+1.A Survey of Large Language Models.[Wayne Xin Zhao](https://arxiv.org/search/cs?searchtype=author&query=Zhao,+W+X), [Kun Zhou](https://arxiv.org/search/cs?searchtype=author&query=Zhou,+K), [Junyi Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+J), [Tianyi Tang](https://arxiv.org/search/cs?searchtype=author&query=Tang,+T), [Xiaolei Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+X), [Yupeng Hou](https://arxiv.org/search/cs?searchtype=author&query=Hou,+Y), [Yingqian Min](https://arxiv.org/search/cs?searchtype=author&query=Min,+Y), [Beichen Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+B), [Junjie Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+J), [Zican Dong](https://arxiv.org/search/cs?searchtype=author&query=Dong,+Z), [Yifan Du](https://arxiv.org/search/cs?searchtype=author&query=Du,+Y), [Chen Yang](https://arxiv.org/search/cs?searchtype=author&query=Yang,+C), [Yushuo Chen](https://arxiv.org/search/cs?searchtype=author&query=Chen,+Y), [Zhipeng Chen](https://arxiv.org/search/cs?searchtype=author&query=Chen,+Z), [Jinhao Jiang](https://arxiv.org/search/cs?searchtype=author&query=Jiang,+J), [Ruiyang Ren](https://arxiv.org/search/cs?searchtype=author&query=Ren,+R), [Yifan Li](https://arxiv.org/search/cs?searchtype=author&query=Li,+Y), [Xinyu Tang](https://arxiv.org/search/cs?searchtype=author&query=Tang,+X), [Zikang Liu](https://arxiv.org/search/cs?searchtype=author&query=Liu,+Z), [Peiyu Liu](https://arxiv.org/search/cs?searchtype=author&query=Liu,+P), [Jian-Yun Nie](https://arxiv.org/search/cs?searchtype=author&query=Nie,+J), [Ji-Rong Wen](https://arxiv.org/search/cs?searchtype=author&query=Wen,+J) [[pdf]](https://arxiv.org/abs/2303.18223) `arxiv *31 Mar 2023*`
